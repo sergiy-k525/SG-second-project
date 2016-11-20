@@ -12,6 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'react-rails', '~> 1.0'
 
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
@@ -34,13 +35,13 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'pg','~>0.18.4'
-  gem 'unicorn'
-  gem 'rails_12factor'
-  gem 'fog'
-  gem 'fog-aws'
-end
+# group :production do
+#   gem 'pg','~>0.18.4'
+#   gem 'unicorn'
+#   gem 'rails_12factor'
+#   gem 'fog'
+#   gem 'fog-aws'
+# end
 
 gem 'devise'
 gem 'carrierwave'
