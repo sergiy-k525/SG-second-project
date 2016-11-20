@@ -34,13 +34,13 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'pg','~>0.18.4'
-  gem 'unicorn'
-  gem 'rails_12factor'
-  gem 'fog'
-  gem 'fog-aws'
-end
+# group :production do
+#   gem 'pg','~>0.18.4'
+#   gem 'unicorn'
+#   gem 'rails_12factor'
+#   gem 'fog'
+#   gem 'fog-aws'
+# end
 
 gem 'devise'
 gem 'carrierwave'
